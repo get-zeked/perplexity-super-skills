@@ -1,6 +1,6 @@
 # Perplexity Super-Skills Collection
 
-> **10 comprehensive super-skills** merging [Perplexity Computer](https://perplexity.ai) built-in skills with [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) expertise into unified, production-ready skill files for AI-powered workflows.
+> **12 super-skills** merging [Perplexity Computer](https://perplexity.ai) built-in skills with [Claude Code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) expertise into unified, production-ready skill files for AI-powered workflows.
 
 ## What Are Super-Skills?
 
@@ -24,6 +24,8 @@ Each super-skill is a single, comprehensive `.md` file that combines multiple Pe
 | 8 | **Operations & CX** | Ops & Customer Experience | Ticket triage, customer responses, escalation workflows, KB management, sprint ops, quality verification | [operations-cx-super-skill](https://github.com/get-zeked/operations-cx-super-skill) |
 | 9 | **Research & Knowledge** | Research & Data | Deep research workflows, knowledge graphs, content extraction, data exploration, statistical analysis, visualization | [research-knowledge-super-skill](https://github.com/get-zeked/research-knowledge-super-skill) |
 | 10 | **Content & Creative** | Creative Studio | Video, speech, image generation, web building, canvas design, algorithmic art, brand guidelines, frontend design | [content-creative-super-skill](https://github.com/get-zeked/content-creative-super-skill) |
+| 11 | **Agent Security** | AI Security | Prompt injection defense, skill validation, memory poisoning prevention, permission auditing, incident response, OWASP/NIST frameworks | [agent-security-super-skill](https://github.com/get-zeked/agent-security-super-skill) |
+| 12 | **Token Efficient** | Performance | Reduces output verbosity and token waste — eliminates narrated tool calls, sycophantic filler, redundant summaries. Adapted from drona23/claude-token-efficient | [token-efficient](https://github.com/get-zeked/token-efficient) |
 
 ---
 
@@ -77,6 +79,8 @@ git clone https://github.com/get-zeked/pm-super-skill.git
 git clone https://github.com/get-zeked/operations-cx-super-skill.git
 git clone https://github.com/get-zeked/research-knowledge-super-skill.git
 git clone https://github.com/get-zeked/content-creative-super-skill.git
+git clone https://github.com/get-zeked/agent-security-super-skill.git
+git clone https://github.com/get-zeked/token-efficient.git
 ```
 
 Then upload each `SKILL.md` file using Method 1 above.
